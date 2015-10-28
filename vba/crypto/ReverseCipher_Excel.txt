@@ -1,0 +1,11 @@
+Function ReverseCipher(var1 As String)
+    'this is a port of the ReverseCipher python script
+    cipher_idx = Len(var1)
+    Dim translated As String
+    While (cipher_idx > 0)
+        translated = translated + Mid(var1, cipher_idx, 1)
+        cipher_idx = cipher_idx - 1
+    Wend
+    ReverseCipher = translated
+
+End Function
