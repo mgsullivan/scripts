@@ -1,7 +1,7 @@
 import pyperclip
-message = 'This is my secret message'
+message = 'GUVF VF ZL FRPERG ZRFFNTR'
 key = 13
-mode = 'encrypt'
+mode = 'decrypt'
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 translated = ''
 message = message.upper()
