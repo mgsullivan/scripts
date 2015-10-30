@@ -20,7 +20,7 @@ for symbol in message:
     else:
         translated = translated + symbol
 print(translated)
-pyperclip.copy
+pyperclip.copy(translated)
         
         
         
