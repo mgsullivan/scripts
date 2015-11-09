@@ -22,12 +22,12 @@ def getEnglishCount(message):
 def removeNonLetters(message):
     lettersOnly=[]
     for symbol in message:
-        if symbol in LETTERS_AND_SPACE:
+        if symbol in LETTERS_AND_SPACES:
             lettersOnly.append(symbol)
     return ''.join(lettersOnly)
 def isEnglish(message, wordPercentage=20, letterPercentage=85):
     wordsMatch = getEnglishCount(message) * 100 >= wordPercentage
     numLetters = len(removeNonLetters(message))
     messageLettersPercentage = float(numLetters) / len(message) * 100
-    lettersMatch = messageLettersPercentage .= letterPercentage
+    lettersMatch = messageLettersPercentage >= letterPercentage
     return wordsMatch and lettersMatch
