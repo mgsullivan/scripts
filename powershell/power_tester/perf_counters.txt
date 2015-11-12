@@ -1,0 +1,3 @@
+﻿Counter,SampleInterval,MaxSamples,Continuous,ComputerName,CommonParameters
+Processor(_Total)\% Processor Time,10,60,1,MSULLIVAN-W7DEV,
+Memory\Available MBytes,10,50,0,MSULLIVAN-W7DEV,
